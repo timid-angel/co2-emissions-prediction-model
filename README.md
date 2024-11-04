@@ -22,21 +22,12 @@ The following packages are required to run the jupyter file in its entirety.
 
 - `seaborn` - for plotting categorical features
 
-- `statsmodels` - for testing the assumptions of Linear Regression
+- `statsmodels` `scipy` - for testing the assumptions of Linear Regression
 
 
-The following segment is the list of requirements found at the first code cell in the notebook file.
-
-```py
-import matplotlib.pyplot as plt
-import pandas as pd
-from sklearn.model_selection import train_test_split
-import seaborn as sns
-import scipy.stats as stats
-from statsmodels.stats.stattools import durbin_watson
-from statsmodels.stats.outliers_influence import variance_inflation_factor
-from statsmodels.stats.diagnostic import het_breuschpagan
-import statsmodels.api as sm
+These dependencies can be found in `requirements.txt`. To install all of them, simply run the command:
+```bash
+make install
 ```
 
 ## Usage
