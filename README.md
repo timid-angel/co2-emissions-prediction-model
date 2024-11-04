@@ -6,8 +6,6 @@ The dataset is imported from Kaggle, a complete overview of the dataset can be f
 
 # Getting Started
 
-To get started with this project, follow the steps below to set up your environment and run the application.
-
 ## Prerequisites
 
 Ensure you have the following installed:
