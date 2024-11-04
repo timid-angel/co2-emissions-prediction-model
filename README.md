@@ -4,7 +4,7 @@ This project includes a Linear Regression model to predict CO2 emissions based o
 
 The dataset is imported from Kaggle, a complete overview of the dataset can be found on their [website](https://www.kaggle.com/datasets/debajyotipodder/co2-emission-by-vehicles/data).
 
-# Getting Starteds
+# Getting Started
 
 Ensure you have the following installed:
 - Python 3.7 or higher
